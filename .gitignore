@@ -1,0 +1,38 @@
+target/
+data/
+*.mv.db
+*.trace.db
+.idea/
+.vscode/
+# Dependencies and build outputs
+node_modules/
+dist/
+target/
+*.tsbuildinfo
+
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+application-local.properties
+application-*.local.properties
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local database files, dumps, and logs
+data/
+*.mv.db
+*.trace.db
+*.dump
+*.backup
+*.sql.gz
+*.log
+
+# Editor and generated tooling files
+.idea/
+.vscode/
+.github/modernize/
+.DS_Store
+Thumbs.db
